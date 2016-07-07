@@ -1,11 +1,23 @@
 package com.floriantoenjes.countries.data;
 
 import com.floriantoenjes.countries.model.Country;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
+@Component
 public class CountryRepository {
-    ArrayList<Country> countries;
+    private static final List<Country> ALL_COUNTRIES = new ArrayList<>(Arrays.asList(
+            new Country("Cameroon", 20_549_221, "Yaoundé", new String[]{"French", "English"}),
+            new Country("Albania", 2_800_138, "Tirana", new String[]{"Albanian"}),
+            new Country("Romania", 19_870_000, "Bukarest", new String[]{"Romanian"}),
+            new Country("Italy", 60_665_551, "Rome", new String[]{"Italian"}),
+            new Country("Malaysia", 28_334_135, "Kuala Lumpur", new String[]{"Malaysian"})
+    ));
 
-
+    public static List<Country> getAllCountries() {
+        return ALL_COUNTRIES;
+    }
 }
