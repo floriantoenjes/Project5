@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
@@ -20,6 +21,13 @@ public class CountryController {
         List<Country> countries = countryRepository.getAllCountries();
         modelMap.put("countries", countries);
         return "index";
+    }
+
+    @RequestMapping("/country/{name}")
+    public String countryDetails(@PathVariable String name, ModelMap modelMap) {
+        Country country = countryRepository.findByName(name);
+        modelMap.put("country", country);
+        return "detail";
     }
 
 }

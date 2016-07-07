@@ -1,6 +1,7 @@
 package com.floriantoenjes.countries.data;
 
 import com.floriantoenjes.countries.model.Country;
+import javassist.NotFoundException;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -19,5 +20,9 @@ public class CountryRepository {
 
     public static List<Country> getAllCountries() {
         return ALL_COUNTRIES;
+    }
+
+    public static Country findByName(String name) {
+        return ALL_COUNTRIES.stream().filter(c -> c.getName().equals(name)).findFirst().orElse(null);
     }
 }
