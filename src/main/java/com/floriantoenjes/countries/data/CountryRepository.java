@@ -1,7 +1,6 @@
 package com.floriantoenjes.countries.data;
 
 import com.floriantoenjes.countries.model.Country;
-import javassist.NotFoundException;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
