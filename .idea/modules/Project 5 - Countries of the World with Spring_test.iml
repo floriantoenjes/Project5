@@ -9,7 +9,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="countries_main" />
+    <orderEntry type="module" module-name="Project 5 - Countries of the World with Spring_main" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-thymeleaf:1.2.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:1.2.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.2.6.RELEASE" level="project" />
@@ -50,5 +50,5 @@
     <orderEntry type="library" name="Gradle: org.unbescape:unbescape:1.1.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.12" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="countries_main" />
+  <component name="TestModuleProperties" production-module="Project 5 - Countries of the World with Spring_main" />
 </module>
