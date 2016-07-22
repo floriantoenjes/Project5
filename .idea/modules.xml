@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Project 5 - Countries of the World with Spring.iml" filepath="$PROJECT_DIR$/.idea/modules/Project 5 - Countries of the World with Spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Project 5 - Countries of the World with Spring_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Project 5 - Countries of the World with Spring_main.iml" group="countries" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Project 5 - Countries of the World with Spring_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Project 5 - Countries of the World with Spring_test.iml" group="countries" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/countries.iml" filepath="$PROJECT_DIR$/.idea/modules/countries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/countries_main.iml" filepath="$PROJECT_DIR$/.idea/modules/countries_main.iml" group="countries" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/countries_test.iml" filepath="$PROJECT_DIR$/.idea/modules/countries_test.iml" group="countries" />
     </modules>
   </component>
 </project>
